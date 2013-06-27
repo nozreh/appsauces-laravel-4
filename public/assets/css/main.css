@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: #888888;
+	background: linear-gradient(#333 26%, transparent 26%),
+        linear-gradient(-45deg, #035 33%, transparent 33%) 0 26%,
+        #035 linear-gradient(45deg, #035 33%, #333 33%) 0 26%;
+    background-repeat: repeat-x;
+    background-size: 1px 100%, 40px 40px, 40px 40px;
+	padding-top: 40px;
+}
+h1{
+	color: #555;
+	font-family: 'Lily Script One', cursive;
+	font-size: 5em;
+	font-weight: normal;
+	text-shadow: 0px -2px 0px #222, 0px 2px 0px #aaa;
+	line-height: 0em;
+}
+h2{
+	color: #888;
+	line-height: 2em;
+}
+p{
+	color: #aaa;
+	text-shadow: 0px 1px 0px #555;
+}
+a{
+	color: #8cf;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+div{
+	margin: 0 auto 0 auto;
+	min-width: 442px;
+	max-width: 442px;
+	height: auto;
+	text-align: center;
+}
+label{
+	color: #fff;
+	color: #ddd;
+	background: #555;
+	border-radius: 5px 5px 0 0;
+	text-shadow: 0px 1px 0px #555;
+}
+label.email{
+	padding: 3px 131px;
+}
+label.message{
+	padding: 3px 118px;
+	margin-right: 1px;
+}
+.panel{
+	width: 300px;
+	padding: 15px 15px;
+	border-radius: 5px;
+	border: 0;
+	background: #069;
+	color: #aaa;
+	margin-bottom: 5px;
+	border: none;
+}
+.panel:focus{
+	outline: none;
+	color: #fff;
+}
+img{
+	float: left;
+	margin-left: 200px;
+	margin-right: -150px;
+	margin-top: 20px;
+}
+.wider{
+	margin-top: 100px;
+	min-width: 960px;
+	max-width: 960px;
+}
+.button{
+	padding: 10px 15px;
+	background: #069;
+	color: #ccc;
+	border: none;
+	border-radius: 10px;
+	transition: .5s;
+	margin-left: 119px;
+	min-width: 80px;
+	max-width: 80px;
+}
+.button:hover{
+	background: #09a;
+	color: #eee;
+}
+.reset{
+	padding: 10px 15px;
+	background: #888;
+	color: #ccc;
+	border: none;
+	border-radius: 10px;
+	transition: .5s;
+	min-width: 80px;
+	max-width: 80px;
+}
+.reset:hover{
+	background: #aaa;
+	color: #555;
+}
+.logo{
+	margin-top: 100px;
+}
+form{
+	margin-top: -10px;
+}
+form *{
+	font-family: 'Shadows Into Light', cursive;
+}
+form p{
+	font-size: 1.3em;
+	#888;
+}
